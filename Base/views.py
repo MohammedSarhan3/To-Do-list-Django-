@@ -11,4 +11,6 @@ class TaskList(ListView):
     context_object_name='tasks'
 
 
-
+class TaskDetail(DetailView):
+    model=Task
+    context_object_name='task'
